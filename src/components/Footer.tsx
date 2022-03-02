@@ -27,8 +27,13 @@ const Footer = () => {
         <ContainerFooter>
           <span>
             {t('footer_createdBy')}{' '}
-            <a href="https://axendev.net/" target="_blank" rel="noopener nofollow noreferrer">
-              aXenDev.net
+            <a href="https://aXenDev.net" target="_blank" rel="noopener nofollow noreferrer">
+            aXenDev.net
+            </a>
+            <br></br>
+            {t('footer_editedBy')}{' '}
+            <a href="https://nidushan.com" target="_blank" rel="noopener nofollow noreferrer">
+            Nidushan
             </a>
           </span>
 

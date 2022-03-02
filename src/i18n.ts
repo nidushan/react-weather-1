@@ -3,6 +3,7 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import translationEN from './lang/en/translation.json';
 import translationPL from './lang/pl/translation.json';
+import translationNO from './lang/no/translation.json';
 
 // the translations
 // (tip move them in a JSON file and import them)
@@ -12,6 +13,9 @@ const resources = {
   },
   pl: {
     translation: translationPL
+  },
+  no: {
+    translation: translationNO
   }
 };
 
@@ -43,8 +47,8 @@ i18n
       excludeCacheFor: ['cimode'], // languages to not persist (cookie, localStorage)
 
       // optional expire and domain for set cookie
-      cookieMinutes: 10,
-      cookieDomain: 'weather.aXenDev.net',
+      cookieMinutes: 2,
+      cookieDomain: 'nidushan-weather.netlify.app',
 
       // optional htmlTag with lang attribute, the default is:
       htmlTag: document.documentElement

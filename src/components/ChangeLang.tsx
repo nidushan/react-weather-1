@@ -33,8 +33,8 @@ const ChangeLang = () => {
 
   return (
     <ChangeLangStyle>
-      {createLang('pl', 'pl', 'polish')}
-      {createLang('en', 'us', 'usa')}
+      {createLang('no', 'no', 'norwegian')}
+      {createLang('en', 'gb', 'english')}
     </ChangeLangStyle>
   );
 };

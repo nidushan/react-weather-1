@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ButtonLinkStyle = styled.a`
   display: inline-block;
   font-family: inherit;
-  background-color: #112f67;
+  background-color: #4c1167;
   border: 0;
   border-radius: var(--border-radius);
   padding: 12px 16px;
@@ -13,7 +13,7 @@ export const ButtonLinkStyle = styled.a`
   cursor: pointer;
 
   &:hover {
-    background-color: #1b4086;
+    background-color: #6d1b86;
     color: inherit;
   }
 

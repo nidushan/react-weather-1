@@ -8,20 +8,27 @@
   <meta name="theme-color" content="#1a4390" />
   <meta name="description"
     content="Weather app is an application that allows you to check the current weather in your chosen city" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon-128.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <title>Weather app - Nidushan.com</title>
   <link
     href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
     rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <meta property="og:image" content="%PUBLIC_URL%/shereImage.png">
+  <meta property="og:image" content="%PUBLIC_URL%/icon-128.png">
 </head>
 
-<body>
+<body class="light-theme">
   <noscript>You need to enable JavaScript to run this app. / Aby uruchomić tę aplikację, musisz włączyć obsługę
     JavaScript.</noscript>
 
   <div id="root"></div>
+  <script>
+    const themeSwitch = document.querySelector('input');
+
+themeSwitch.addEventListener('change', () => {
+  document.body.classList.toggle('dark-theme');
+});
+  </script>
 </body>
 
 </html>

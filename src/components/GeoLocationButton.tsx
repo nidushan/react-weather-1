@@ -23,6 +23,8 @@ const GeoLocationButton = () => {
 
   const onError = () => {
     console.error('Access Denied!');
+    console.log('Access Denied!');
+    alert("Access Denied!\nPlease allow your location.\nThe app does not record or save any information.\n🐒");
   };
 
   const handleButton = () => {
@@ -37,6 +39,7 @@ const GeoLocationButton = () => {
     <GeoLocationButtonStyle onClick={handleButton} title={t('geolocation_button')} aria-label={t('geolocation_button')}>
       <FontAwesomeIcon icon={faMapMarkerAlt} />
     </GeoLocationButtonStyle>
+    
   );
 };
 
