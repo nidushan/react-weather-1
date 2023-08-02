@@ -28,7 +28,7 @@ const Footer = () => {
           <span>
             {t('footer_createdBy')}{' '}
             <a href="https://nidushan.com" target="_blank" rel="noopener nofollow noreferrer">
-            Nidushan
+            nidushan.com
             </a>
           </span>
 
